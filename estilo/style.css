@@ -92,7 +92,7 @@ p {
 .projetoimg {
    display: flex;
    flex-wrap: wrap;
-   gap:20px ;
+   gap:10px ;
    background-color: black;
 }
 
