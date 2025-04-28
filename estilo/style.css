@@ -169,28 +169,27 @@ p {
 .icon1 {
     width: 60px;
     transition: 0.3s ease;
-    border-radius: 20px;
     background-color: white;
-    object-fit: cover;
+    border-radius: 50px;
+    
 }
 
 .icon1:hover {
     filter: brightness(1.2);
-    box-shadow: 0 0 10px #0084ff, 0 0 20px #0084ff, 0 0 30px #0084ff;
-    border-radius: 50%; 
+    box-shadow: 0 0 10px #0084ff, 0 0 20px #0084ff, 0 0 30px #0084ff; 
 }
 
 .icon2 {
     width: 60px;
     transition: 0.3s ease;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: white;
 }
 
 .icon2:hover {
     filter: brightness(1.2);
-    box-shadow: 0 0 10px #fa42f1, 0 0 20px #fa42f1, 0 0 30px #fa42f1;
-    border-radius: 50%; 
+    box-shadow: 0 0 10px #ed2ba9, 0 0 20px #ed2ba9, 0 0 30px #ed2ba9;
+
 }
 
 .icon3 {
@@ -203,8 +202,6 @@ p {
 .icon3:hover {
     filter: brightness(1.2);
     box-shadow: 0 0 10px #6d6c6c, 0 0 20px #6d6c6c, 0 0 30px #6d6c6c;
-    border-radius: 50%; 
-    background-color: white;
 }
 
 .icon4 {
@@ -217,7 +214,6 @@ p {
 .icon4:hover {
     filter: brightness(1.2);
     box-shadow: 0 0 10px #1a29f5, 0 0 20px #1a29f5, 0 0 30px #1a29f5;
-    border-radius: 50%; 
 }
 
 footer {
@@ -242,10 +238,10 @@ footer a {
 }
 
 .delay-1 {animation-delay: 0.2s;}
-.delay-2 {animation-delay: 0.3s;}
-.delay-3 {animation-delay: 0.4s;}
-.delay-4 {animation-delay: 0.6s;}
-.delay-5 {animation-delay: 0.8s;}
+.delay-2 {animation-delay: 0.6s;}
+.delay-3 {animation-delay: 0.2s;}
+.delay-4 {animation-delay: 0.3s;}
+.delay-5 {animation-delay: 0.4s;}
 
 
 @keyframes aparecer {
