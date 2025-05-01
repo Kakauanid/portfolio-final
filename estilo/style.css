@@ -70,7 +70,7 @@ p {
 .list ul li a {
     text-decoration: none;
     color: #f9f9f9;
-    font-size: 1.5em;
+    font-size: 3vw;
     transition: color 0.3s;
 }
 
