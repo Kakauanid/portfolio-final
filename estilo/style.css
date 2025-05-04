@@ -119,6 +119,36 @@ p {
     filter: grayscale(0);
 }
 
+.sobre {
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    background-color: 	#2C2C2C;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 270px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.imgeu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgeu img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    margin: auto;
+    margin-top: 20px;
+}
 
 
 .contato {
