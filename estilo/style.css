@@ -100,21 +100,22 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .img  img{
     width: 250px;
-    padding: 0;
     margin-left: 10px;
     border-radius: 8px;
     filter: grayscale(100%);
     transition: width 0.3s ease;
-    gap: 20px;
+    display: block;
+    border: none;
+    outline: none;
 }
 
 .img img:hover {
-    width: 300px;
+    transform: scale(1.1);
     filter: grayscale(0);
 }
 
