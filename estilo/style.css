@@ -129,6 +129,7 @@ p {
 
 .sobre {
     background-color: #f9f9f9;
+    padding: 40px 20px;
 }
 
 .sobre h2 {
@@ -161,6 +162,7 @@ p {
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: center;
 }
 
 .imgeu p {
