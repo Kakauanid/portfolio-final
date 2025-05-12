@@ -168,7 +168,6 @@ p {
 .imgeu p {
     font-family: var(--fonte4);
     font-size: larger;
-    font-style: italic;
     letter-spacing: 1px;
 }
 
